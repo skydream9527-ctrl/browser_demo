@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <!-- History icon -->
+    <FrameLayout
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="@drawable/bg_engine_icon">
+
+        <TextView
+            android:id="@+id/historyIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:gravity="center" />
+
+    </FrameLayout>
+
+    <!-- History info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/historyTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="?attr/colorOnSurface" />
+
+        <TextView
+            android:id="@+id/historyUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:singleLine="true"
+            android:ellipsize="end" />
+
+    </LinearLayout>
+
+    <!-- History time -->
+    <TextView
+        android:id="@+id/historyTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:textColor="?attr/colorOnSurfaceVariant" />
+
+</LinearLayout>

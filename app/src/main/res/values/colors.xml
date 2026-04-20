@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="engine_baidu">#4285F4</color>
+    <color name="engine_sogou">#FF6A00</color>
+    <color name="engine_google">#EA4335</color>
+    <color name="engine_bing">#00809D</color>
+    <color name="engine_bilibili">#FB7299</color>
+    <color name="engine_doubao">#6C5CE7</color>
+    <color name="engine_qianwen">#615AE4</color>
+    <color name="engine_zhihu">#0084FF</color>
+</resources>

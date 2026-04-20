@@ -1,0 +1,13 @@
+package com.litebrowse.data.entity
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "quick_access")
+data class QuickAccess(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val title: String,
+    val url: String,
+    val iconEmoji: String,
+    val position: Int
+)

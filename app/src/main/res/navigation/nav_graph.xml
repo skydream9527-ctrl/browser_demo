@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.litebrowse.ui.home.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home_to_browser"
+            app:destination="@id/browserFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/browserFragment"
+        android:name="com.litebrowse.ui.browser.BrowserFragment"
+        android:label="Browser">
+        <argument
+            android:name="url"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_browser_to_tabs"
+            app:destination="@id/tabManagerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tabManagerFragment"
+        android:name="com.litebrowse.ui.tabs.TabManagerFragment"
+        android:label="Tabs" />
+
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="com.litebrowse.ui.bookmark.BookmarkFragment"
+        android:label="Bookmarks" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.litebrowse.ui.history.HistoryFragment"
+        android:label="History" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.litebrowse.ui.settings.SettingsFragment"
+        android:label="Settings" />
+</navigation>

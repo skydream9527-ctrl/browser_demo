@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LiteBrowse</string>
+    <string name="search_hint">搜索或输入网址…</string>
+    <string name="tabs">标签页</string>
+    <string name="close_all">关闭全部</string>
+    <string name="normal_tabs">普通标签</string>
+    <string name="private_tabs">无痕标签</string>
+    <string name="bookmarks">收藏夹</string>
+    <string name="new_folder">新建文件夹</string>
+    <string name="uncategorized">未分类</string>
+    <string name="history">历史记录</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="earlier">更早</string>
+    <string name="clear_all">清除全部</string>
+    <string name="settings">设置</string>
+    <string name="select_engine">选择搜索引擎</string>
+    <string name="bookmark_page">收藏</string>
+    <string name="share">分享</string>
+    <string name="find_in_page">页内查找</string>
+    <string name="desktop_mode">桌面模式</string>
+    <string name="downloads">下载</string>
+    <string name="incognito_mode">无痕模式</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="default_engine">默认搜索引擎</string>
+    <string name="clear_data">清除浏览数据</string>
+    <string name="ad_blocking">广告拦截</string>
+    <string name="font_size">字体大小</string>
+    <string name="about">关于</string>
+    <string name="add">添加</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="folder_name">文件夹名称</string>
+    <string name="title">标题</string>
+    <string name="url">网址</string>
+    <string name="no_bookmarks">暂无收藏</string>
+    <string name="no_history">暂无历史</string>
+    <string name="search_history">搜索历史…</string>
+    <string name="new_tab">新标签页</string>
+    <string name="clear_data_title">清除浏览数据</string>
+    <string name="clear_data_message">将清除所有历史记录和缓存。收藏夹不会受影响。</string>
+
+    <string-array name="engine_names">
+        <item>百度</item>
+        <item>搜狗</item>
+        <item>Google</item>
+        <item>必应</item>
+        <item>哔哩哔哩</item>
+        <item>豆包</item>
+        <item>通义千问</item>
+        <item>知乎</item>
+    </string-array>
+    <string-array name="engine_ids">
+        <item>baidu</item>
+        <item>sogou</item>
+        <item>google</item>
+        <item>bing</item>
+        <item>bilibili</item>
+        <item>doubao</item>
+        <item>qianwen</item>
+        <item>zhihu</item>
+    </string-array>
+    <string-array name="font_size_names">
+        <item>小</item>
+        <item>标准</item>
+        <item>大</item>
+        <item>超大</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </string-array>
+</resources>
